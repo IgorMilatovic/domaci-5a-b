@@ -1,0 +1,106 @@
+
+article {
+	width: 90%;
+	margin: auto;
+}
+
+.ilustracija {
+	width: 65%;
+	margin: 30px auto 0;
+	box-shadow: 0 0 7px black;
+	background-color: #8c8c8c;
+	background: linear-gradient(to right, #8c8c8c, #999999);
+}/*div vel slike (pojavljuje se bela traka
+uz donju ivicu diva i viri ispod slike,
+ako izbrises bacg color videces je, 
+ne uspevam da joj nadjem uzrok..postavio sam bcg color
+i gradient sa desna samo da ne izgleda ruzno,
+ali voleo bih da shvatim sta se desava.., takodje slika nije 
+potpuno responsivna...sada vidim u stvari da
+div 'ilustracija' jeste, a slika nije...
+PROVALIO SAM... selektovao sam je IDjem, a u css-u stavio . umesto #
+:))) ode jos sat i po zivota, ostavicu ipak ovaj koment da
+se smejes, ostaje problem bele trake u dnu*/
+
+#crtez {
+	width: 100%;
+	height: auto;
+}/*velika slika*/
+
+.post {
+	width: 58%;
+	margin: -11% auto 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	box-shadow: 0 0 4px red;
+}/*div texta*/
+
+h1 {
+	font-family: 'Cinzel', serif;
+	padding: 8px 6%;
+	color: #a6a6a6;
+	text-shadow: 1px 1px 1px black;
+	}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.2em;
+	padding: 0 3% 20px;
+	line-height: 1.4em;
+}
+
+.bigIT {
+	font-family: 'Londrina Outline', cursive;
+	font-size: 1.5em;
+	color: red;
+	text-shadow: 1px 1px 1px red;
+}
+
+.it {
+	font-size: 1.3em;
+	text-shadow: 1px 1px 2px green;
+}
+
+i {
+	display: block;
+	margin-top: -35px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#say:hover {
+	color: red;
+}
+
+#say {
+	display: block;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.2em;
+	padding: 0 3% 35px;
+	line-height: 25px;
+	color: #000033;
+	margin-top: -40px;
+	width: 30%;
+} 
+
+#beckett {
+	text-align: right;
+}/*div male slike*/
+
+#sam {
+	border-radius: 50%;
+	margin-top: -90px;
+	margin-right: 5%;
+}/*mala slika*/
+
+
+
+
+
+
+
+
+
+
